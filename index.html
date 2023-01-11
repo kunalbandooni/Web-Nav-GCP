@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        World Historical Places
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="Menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a>Countries</a>
+                        <ol class="drop">
+                            <li><a href="Content/India.html">India</a></li>
+                            <li><a href="Content/Afghanistan.html">Afghanistan</a></li> 
+                            <li><a href="Content/Australia.html">Australia</a></li> 
+                            <li><a href="Content/China.html">China</a></li> 
+                            <li><a href="Content/France.html">France</a></li> 
+                            <li><a href="Content/Germany.html">Germany</a></li> 
+                            <li><a href="Content/Indonesia.html">Indonesia</a></li> 
+                            <li><a href="Content/Italy.html">Italy</a></li>
+                            <li><a href="Content/Japan.html">Japan</a></li> 
+                            <li><a href="Content/Russia.html">Russia</a></li>  
+                        </ol>   
+                    </li>
+                    <li>
+                        <a href="#address">About the Author</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- HEADER -->
+		<section class="clearfix"></section>
+
+        <section class="banner">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <img src="Pictures\img1.jpg" style="width:100%;  height: 600px;">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="Pictures\img2.jpg" style="width:100%; height: 600px;">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="Pictures\img3.jpg" style="width:100%;  height: 600px;">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+        <!-- SlideShow -->
+        <section class="content">
+            <article>
+                <main>
+                    This page helps you get the historical places of the World.
+                    P.S. Only 10 coutries included.
+                    <br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim sit amet venenatis urna cursus eget nunc. Dictum varius duis at consectetur lorem. Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Et ligula ullamcorper malesuada proin libero nunc consequat interdum. Sit amet consectetur adipiscing elit pellentesque. Praesent tristique magna sit amet purus gravida. Auctor augue mauris augue neque gravida in fermentum et. Justo donec enim diam vulputate ut. Aliquet nibh praesent tristique magna sit amet. Malesuada pellentesque elit eget gravida cum. Ut diam quam nulla porttitor massa id neque aliquam vestibulum. In massa tempor nec feugiat nisl pretium fusce id. Mauris a diam maecenas sed enim ut.
+                    <br>
+					Pulvinar etiam non quam lacus suspendisse. Amet porttitor eget dolor morbi non arcu risus. Leo urna molestie at elementum eu facilisis. In metus vulputate eu scelerisque felis imperdiet proin fermentum. Pretium quam vulputate dignissim suspendisse in est. Augue ut lectus arcu bibendum at varius vel. Congue eu consequat ac felis donec et odio. Nibh praesent tristique magna sit amet. Id diam maecenas ultricies mi eget mauris pharetra. Blandit massa enim nec dui nunc mattis. Dui ut ornare lectus sit amet est placerat. A arcu cursus vitae congue. Diam quam nulla porttitor massa. Congue nisi vitae suscipit tellus mauris a diam maecenas sed. Et netus et malesuada fames ac turpis egestas maecenas. Fusce ut placerat orci nulla. Hac habitasse platea dictumst quisque sagittis. Amet purus gravida quis blandit turpis cursus.
+                </main>
+            </article>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-Menu">
+                <h4>-----------------------------------------------------------------------------------End of Content-----------------------------------------------------------------------------------</h4>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a>Countries</a>
+                        <ol class="drop">
+                            <li><a href="Content/India.html">India</a></li>
+                            <li><a href="Content/Afghanistan.html">Afghanistan</a></li> 
+                            <li><a href="Content/Australia.html">Australia</a></li> 
+                            <li><a href="Content/China.html">China</a></li> 
+                            <li><a href="Content/France.html">France</a></li> 
+                            <li><a href="Content/Germany.html">Germany</a></li> 
+                            <li><a href="Content/Indonesia.html">Indonesia</a></li> 
+                            <li><a href="Content/Italy.html">Italy</a></li>
+                            <li><a href="Content/Japan.html">Japan</a></li> 
+                            <li><a href="Content/Russia.html">Russia</a></li>   
+                        </ol>   
+                    </li>
+                    <li>
+                        <a href="#address">About the Author</a>
+                    </li>
+                </ul>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <div>
+    	    	<address id="address">
+	            	<h4>About the Author</h4>
+                	Kunal Bandooni
+                	<br>
+                	<a href="mailto:kbandooni1@gmail.com">kbandooni1@gmail.com</a>
+                	<br>
+                	LinkTree: <a href="https://linktr.ee/kbandooni1">CLICK HERE</a>
+        		</address>
+        	</div>
+		</footer>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>

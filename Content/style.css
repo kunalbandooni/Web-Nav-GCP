@@ -1,0 +1,152 @@
+body {
+    margin: 0 auto;
+    background-color: cadetblue;
+}
+
+.container {
+    width: 1100px;
+    height: auto;
+    background-color: rgb(125, 70, 165);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 50px 20px;
+}
+
+.Menu {
+    margin: 50px auto;
+    margin-left: 50px;
+    float: left;
+}
+
+.Menu>ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 15px;
+}
+
+.Menu>ul>li {
+    display: inline-block;
+}
+
+.Menu>ul>li>a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color: rgb(246, 145, 22);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Menu>ul>li>a:hover {
+    background-color: crimson;
+    text-shadow: 0ex;
+}
+
+.drop {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+    position: absolute;
+    text-align: left;
+    font-size: medium;
+    z-index: 999;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.drop>li>a {
+    color: white;
+    background-color: rgb(246, 145, 22);
+    display: block;
+    text-decoration: none;
+}
+
+.drop>li>a:hover {
+    background-color: crimson;
+}
+
+.Menu>ul>li:hover .drop {
+    display: block;
+}
+
+.banner {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.content {
+    color: whitesmoke;
+}
+
+.content>h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align-last: center;
+}
+
+.places>article {
+    width: 900px;
+    height: auto;
+    background-color: rgb(45, 78, 180);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 50px 20px;
+}
+
+.places>article>img {
+    width: 800px;
+    height: 400px;
+}
+
+.footer-Menu {
+    margin: 50px auto;
+    margin-left: 50px;
+    float: left;
+}
+
+.footer-Menu>ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 15px;
+}
+
+.footer-Menu>ul>li {
+    display: inline-block;
+}
+
+.footer-Menu>ul>li>a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color: rgb(246, 145, 22);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-Menu>ul>li>a:hover {
+    background-color: crimson;
+    text-shadow: 0ex;
+}
+
+.footer-Menu>ul>li:hover .drop {
+    display: block;
+}
+
+.footer>div>address{
+    color: rgb(226, 243, 152);
+}
+
+.footer>div>address>a{
+    color: rgb(225, 232, 136);
+}
+
+.address {
+    background-color: aliceblue;
+    padding: 15px;
+}
+
+
+.clearfix {
+    clear: both;
+}
